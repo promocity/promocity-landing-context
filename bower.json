@@ -1,0 +1,23 @@
+{
+  "name": "promocity-landing-seo",
+  "description": "seo landing",
+  "main": "gulpfile.js",
+  "authors": [
+    "Verst3"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
