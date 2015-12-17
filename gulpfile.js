@@ -74,7 +74,7 @@ gulp.task('style:build', function() {
       browsers: ['last 5 versions'],
       cascade: false
     })) // „îáàâèì âåíäîðíûå ïðåôèêñû
-    .pipe(cssmin()) // ‘îæìåì
+    // .pipe(cssmin()) // ‘îæìåì
     // .pipe(sourcemaps.write())
     .pipe(gulp.dest(path.build.css)) // ˆ â build
     .pipe(reload({ stream: true }));
